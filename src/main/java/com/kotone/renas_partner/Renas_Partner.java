@@ -37,14 +37,6 @@ public class Renas_Partner {
     );
   }
 
-  public Dotenv getConfig() {
-    return config;
-  }
-
-  public ShardManager getShardManager() {
-    return this.shardManager;
-  }
-
   public static void main(String[] args) {
     try {
       Renas_Partner bot = new Renas_Partner();
