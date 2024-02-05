@@ -12,6 +12,7 @@ import net.dv8tion.jda.api.sharding.ShardManager;
 import javax.security.auth.login.LoginException;
 
 public class TwentyFive_At_Discord {
+  public static ShardManager shardManager;
 
   private TwentyFive_At_Discord() throws LoginException {
     Dotenv config = Dotenv.configure().load();
@@ -23,7 +24,7 @@ public class TwentyFive_At_Discord {
     builder.setActivity(Activity.customStatus("👀 君たちを監視中"));
     builder.enableIntents(GatewayIntent.GUILD_MEMBERS, GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MESSAGES);
 
-    ShardManager shardManager = builder.build();
+    shardManager = builder.build();
 
     shardManager.addEventListener(
             // Message Received Event
