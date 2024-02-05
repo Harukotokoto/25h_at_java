@@ -1,6 +1,6 @@
-package com.kotone.renas_partner.Commands;
+package com.kotone.twentyfive_at_discord.Commands;
 
-import com.kotone.renas_partner.Commands.information.Ping;
+import com.kotone.twentyfive_at_discord.Commands.information.Ping;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.events.session.ReadyEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;

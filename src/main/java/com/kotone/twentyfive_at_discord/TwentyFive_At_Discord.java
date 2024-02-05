@@ -1,7 +1,7 @@
-package com.kotone.renas_partner;
+package com.kotone.twentyfive_at_discord;
 
-import com.kotone.renas_partner.Commands.CommandManager;
-import com.kotone.renas_partner.Events.MessageReceived;
+import com.kotone.twentyfive_at_discord.Commands.CommandManager;
+import com.kotone.twentyfive_at_discord.Events.MessageReceived;
 import io.github.cdimascio.dotenv.Dotenv;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
@@ -11,11 +11,11 @@ import net.dv8tion.jda.api.sharding.ShardManager;
 
 import javax.security.auth.login.LoginException;
 
-public class Renas_Partner {
+public class TwentyFive_At_Discord {
   private final ShardManager shardManager;
   private final Dotenv config;
 
-  public Renas_Partner() throws LoginException {
+  public TwentyFive_At_Discord() throws LoginException {
     config = Dotenv.configure().load();
     String token = config.get("CLIENT_TOKEN");
 
@@ -39,7 +39,7 @@ public class Renas_Partner {
 
   public static void main(String[] args) {
     try {
-      Renas_Partner bot = new Renas_Partner();
+      TwentyFive_At_Discord bot = new TwentyFive_At_Discord();
     } catch (LoginException e) {
       System.out.println("Error: Provided token is invalid");
     }

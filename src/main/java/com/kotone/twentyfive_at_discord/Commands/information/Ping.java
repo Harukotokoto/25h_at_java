@@ -1,4 +1,4 @@
-package com.kotone.renas_partner.Commands.information;
+package com.kotone.twentyfive_at_discord.Commands.information;
 
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
@@ -7,15 +7,9 @@ import java.awt.*;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import java.lang.management.MemoryUsage;
-import java.lang.management.OperatingSystemMXBean;
-import java.time.Duration;
 import java.time.Instant;
 
-import com.kotone.renas_partner.Constants.Emojis;
-
-import com.sun.jna.platform.win32.Kernel32;
-import com.sun.jna.platform.win32.WinDef;
-import com.sun.jna.platform.win32.WinNT;
+import com.kotone.twentyfive_at_discord.Constants.Emojis;
 
 public class Ping {
   public Ping(SlashCommandInteractionEvent event) {

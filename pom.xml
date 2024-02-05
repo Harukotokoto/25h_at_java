@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.kotone.renas_partner</groupId>
-  <artifactId>Renas_Partner</artifactId>
+  <groupId>com.kotone.twentyfive_at_discord</groupId>
+  <artifactId>TwentyFive_At_Discord</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <properties>

@@ -1,4 +1,4 @@
-package com.kotone.renas_partner.Constants;
+package com.kotone.twentyfive_at_discord.Constants;
 
 public class Emojis {
   public static final String BOOST = "<:25D_Boost:1191805196821610497>";
